@@ -10,7 +10,7 @@ const AwardWining = () => {
             <div className='text-center text-black'>
                 <img src={star} className="h-10 mx-auto " alt="" />
                 <h1 className='text-center font-bold text-3xl'>Award-winning support<span className='text-[#915bff] font-bold text-5xl'>.</span> </h1>
-                <p className='text-center font-semibold text-xl'>Best-in-class support. We’re always here to help – here’s how to connect.</p>
+                <p className='text-center text-xl'>Best-in-class support. We’re always here to help – here’s how to connect.</p>
             </div>
             <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4'>
                 <div className='shadow-lg rounded-xl'>
