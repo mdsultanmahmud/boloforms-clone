@@ -8,6 +8,7 @@ import Testimonials from '../Testimonials/Testimonials';
 import WorkInformation from '../WorkInformation/WorkInformation';
 import feedOne from '../../assets/feed1.jpeg'
 import feedTwo from '../../assets/feed2.jpeg'
+import feedThree from '../../assets/feed3.jpeg'
 import Rating from '../Rating/Rating';
 import ratOne from '../../assets/rating1.jpeg'
 import ratTwo from '../../assets/rating2.jpeg'
@@ -23,6 +24,10 @@ const Home = () => {
     const SecondFeedBackSection = {
         img: feedTwo,
         name: 'Alaa Khaled'
+    }
+    const ThirdFeedBackSection = {
+        img: feedThree,
+        name: 'Raman R'
     }
     const FirstRatingSec = {
         img: ratOne,
@@ -44,6 +49,8 @@ const Home = () => {
             <Feedback content={SecondFeedBackSection}></Feedback>
             <Rating content = {FirstRatingSec}></Rating>
             <Comment></Comment>
+            <Feedback content = {ThirdFeedBackSection}></Feedback>
+            <Rating content = {SecondRatingSec}></Rating>
             <Certification></Certification>
             <AwardWining></AwardWining>
             <FAQ></FAQ>

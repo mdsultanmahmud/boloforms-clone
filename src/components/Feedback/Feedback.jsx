@@ -7,7 +7,7 @@ const Feedback = ({ content }) => {
     return (
         <div className='p-4 my-6'>
             <div className="card card-side bg-base-100 text-black shadow-xl px-8 z-0">
-                <figure><img src={img} className="rounded-full" alt="Movie" /></figure>
+                <img src={img} className="rounded-full h-[120px] w-[120px] my-auto" alt="Movie" />
                 <div className="card-body">
                     <div className="rating rating-md">
                         <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" />
