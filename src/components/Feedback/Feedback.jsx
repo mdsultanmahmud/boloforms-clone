@@ -16,7 +16,7 @@ const Feedback = ({ content }) => {
                         <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" />
                         <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" checked />
                     </div>
-                    <q className='font-semibold text-xl'>Boloforms has been an absolute lifesaver for me. It makes workflow tasks much easier and helps to ensure that everything runs smoothly. I love how it automates tasks and eliminates manual processes, saving me time and effort. It's a great Google Workflow software and is well worth the money!</q>
+                    <q>Boloforms has been an absolute lifesaver for me. It makes workflow tasks much easier and helps to ensure that everything runs smoothly. I love how it automates tasks and eliminates manual processes, saving me time and effort. It's a great Google Workflow software and is well worth the money!</q>
                     <p className='font-bold text-xl'>{name}</p>
                 </div>
             </div>

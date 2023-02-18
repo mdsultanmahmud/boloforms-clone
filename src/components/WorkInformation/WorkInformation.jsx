@@ -10,18 +10,18 @@ const WorkInformation = () => {
             <div className="works-content grid gap-5 grid-cols-1 lg:grid-cols-3 text-center my-3">
                 <div>
                     <img src={workOne} className="hover:transform hover:-translate-y-3 transition duration-500" alt="" />
-                    <h2 className='font-bold text-3xl'>Step 1:</h2>
-                    <p className='text-xl font-semibold'>Choose a template or add questions to create your Google Form.</p>
+                    <h2 className='font-bold text-2xl text-black'>Step 1:</h2>
+                    <p>Choose a template or add questions to create your Google Form.</p>
                 </div>
                 <div>
                     <img src={workTwo} className="hover:transform hover:-translate-y-3 transition duration-500" alt="" />
-                    <h2 className='font-bold text-3xl'>Step 2:</h2>
-                    <p className='text-xl font-semibold'>Enable Single/Multi Step approval and add necessary approvers!</p>
+                    <h2 className='font-bold text-2xl text-black'>Step 2:</h2>
+                    <p>Enable Single/Multi Step approval and add necessary approvers!</p>
                 </div>
                 <div>
                     <img src={workThree} className="hover:transform hover:-translate-y-3 transition duration-500" alt="" />
-                    <h2 className='font-bold text-3xl'>Step 3:</h2>
-                    <p className='text-xl font-semibold'>Now you can enable the workflow and share the Google Form.</p>
+                    <h2 className='font-bold text-2xl text-black'>Step 3:</h2>
+                    <p>Now you can enable the workflow and share the Google Form.</p>
                 </div>
             </div>
 

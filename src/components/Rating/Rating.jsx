@@ -14,8 +14,8 @@ const Rating = ({ content }) => {
                         <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" />
                         <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" checked />
                     </div>
-                    <q className='font-semibold text-xl'>{text}</q>
-                    <p className='font-bold text-xl'>{name}</p>
+                    <q>{text}</q>
+                    <p className='font-semibold text-xl'>{name}</p>
                 </div>
             </div>
         </div>
