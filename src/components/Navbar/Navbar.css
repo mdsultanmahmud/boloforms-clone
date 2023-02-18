@@ -1,0 +1,6 @@
+.navbar-custom ul li{
+    font-weight: 600;
+}
+.navbar-custom ul li a:hover{
+    background-color: transparent;
+}
