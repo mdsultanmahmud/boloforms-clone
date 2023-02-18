@@ -3,7 +3,7 @@ import logo from '../../assets/logo-nav.svg'
 import './Navbar.css'
 const Navbar = () => {
     return (
-        <div className="navbar bg-transparent shadow-lg h-[75px] navbar-custom fixed top-0 w-full">
+        <div className="navbar bg-white shadow-lg h-[75px] navbar-custom fixed top-0 w-full">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
