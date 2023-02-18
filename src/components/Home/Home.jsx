@@ -11,6 +11,7 @@ import feedTwo from '../../assets/feed2.jpeg'
 import Rating from '../Rating/Rating';
 import ratOne from '../../assets/rating1.jpeg'
 import ratTwo from '../../assets/rating2.jpeg'
+import FAQ from '../FAQ/FAQ';
 const Home = () => {
     const FirstFeedBackSection = {
         img: feedOne,
@@ -39,6 +40,7 @@ const Home = () => {
             <Feature></Feature>
             <Feedback content={SecondFeedBackSection}></Feedback>
             <Rating content = {FirstRatingSec}></Rating>
+            <FAQ></FAQ>
             <Testimonials></Testimonials>
             <Footer></Footer>
         </div>
