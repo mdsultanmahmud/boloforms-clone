@@ -6,7 +6,7 @@ import awardThree from '../../assets/award_3.png'
 import awardFour from '../../assets/award_4.png'
 const AwardWining = () => {
     return (
-        <div className='my-12 text-black text-center'>
+        <div className='my-12 mx-4 text-black text-center'>
             <div className='text-center text-black'>
                 <img src={star} className="h-10 mx-auto " alt="" />
                 <h1 className='text-center font-bold text-3xl'>Award-winning support<span className='text-[#915bff] font-bold text-5xl'>.</span> </h1>

@@ -4,7 +4,7 @@ import boloFormImg from '../../assets/boloAppImg.svg'
 import './Workflow.css'
 const Workflow = () => {
     return (
-        <div className='my-12 p-8 border-2 rounded-lg'>
+        <div className='my-12 p-8 border-2 rounded-lg mx-4'>
             <div className='my-4'>
                 <h1 className='text-center text-3xl font-bold text-black my-2'>Fully Automated Workflows</h1>
                 <p className='text-center text-xl'>No more painful manual approval management and wasting countless hours.</p>

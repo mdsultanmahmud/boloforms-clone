@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import './HoverButton.css'
 const HoverButton = () => {
     return (
-        <div className='fixed left-3 top-1/2 transform translate-y-[-50%] z-10'>
+        <div className='fixed left-3 top-1/2 transform translate-y-[-50%] z-10 hidden md:block'>
             <div className='btn-container'>
                 <div className='btn-inner-container'>
                     <div className='btn-inner'>

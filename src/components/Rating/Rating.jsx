@@ -4,7 +4,7 @@ const Rating = ({ content }) => {
     const { img, name, text } = content
     return (
         <div className='my-8 p-4'>
-            <div className="card card-side bg-base-100 text-black shadow-xl p-8 z-0">
+            <div className="flex flex-col md:flex-row items-center bg-base-100 text-black shadow-xl p-8 z-0">
                 <img src={img} className="rounded-full w-[120px] h-[120px] my-auto" alt="Movie" />
                 <div className="card-body">
                     <div className="rating rating-md">

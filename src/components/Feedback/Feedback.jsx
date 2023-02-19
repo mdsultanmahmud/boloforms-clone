@@ -6,7 +6,7 @@ const Feedback = ({ content }) => {
     const { img, name } = content
     return (
         <div className='p-4 my-6'>
-            <div className="card card-side bg-base-100 text-black shadow-xl px-8 z-0">
+            <div className="flex flex-col md:flex-row items-center bg-base-100 text-black shadow-xl px-8 z-0">
                 <img src={img} className="rounded-full h-[120px] w-[120px] my-auto" alt="Movie" />
                 <div className="card-body">
                     <div className="rating rating-md">

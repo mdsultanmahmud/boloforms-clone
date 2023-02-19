@@ -4,7 +4,7 @@ import workTwo from '../../assets/work_2.svg'
 import workThree from '../../assets/work_3.svg'
 const WorkInformation = () => {
     return (
-        <div className='my-36'>
+        <div className='my-36 p-8'>
             <h1 className='text-center text-3xl font-bold'>How does BoloForms work?</h1>
             <p className='text-sm text-center font-semibold'>Set up your first workflow in just 3 easy steps.</p>
             <div className="works-content grid gap-5 grid-cols-1 lg:grid-cols-3 text-center my-3">

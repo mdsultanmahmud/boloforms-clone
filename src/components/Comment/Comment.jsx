@@ -2,7 +2,7 @@ import React from 'react';
 import comment_img from '../../assets/comment.jpeg'
 const Comment = () => {
     return (
-        <div className='bg-[#915bff] p-4 min-h-[500px] flex items-center'>
+        <div className='bg-[#915bff] p-4 min-h-[500px] flex items-center mx-8'>
             <div className='w-3/4 mx-auto text-center'>
                 <q className='text-white text-xl'>Boloforms has completely revolutionized our form approval process. It is incredibly easy to use and simple to set up, saving us countless hours of work. We can now easily manage all of our form approvals, assign tasks to different team members and track progress all in one place. Boloforms is a must-have for any business looking for an efficient Form Approval Workflow Software!</q>
                 <br />
