@@ -17,6 +17,8 @@ import AwardWining from '../AwardWining/AwardWining';
 import Certification from '../Certification/Certification';
 import Comment from '../Comment/Comment';
 import BoloFormSlider from '../BoloFormSlider/BoloFormSlider';
+import WorkflowPlatforms from '../WorkflowPlatforms/WorkflowPlatforms';
+import Workflow from '../Workflow/Workflow';
 const Home = () => {
     const FirstFeedBackSection = {
         img: feedOne,
@@ -50,7 +52,9 @@ const Home = () => {
             <Feature></Feature>
             <Feedback content={SecondFeedBackSection}></Feedback>
             <Rating content = {FirstRatingSec}></Rating>
+            <WorkflowPlatforms></WorkflowPlatforms>
             <Comment></Comment>
+            <Workflow></Workflow>
             <Feedback content = {ThirdFeedBackSection}></Feedback>
             <Rating content = {SecondRatingSec}></Rating>
             <Certification></Certification>

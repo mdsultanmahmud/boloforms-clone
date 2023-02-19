@@ -39,7 +39,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 <a><button className="mx-2 px-4 py-2 rounded border-2 border-[#915bff] text-[#915bff] font-bold hover:bg-[#915bff] hover:text-white">Install Now</button></a>
-                <a><button className="mx-2 px-4 py-2 rounded border-2 border-[#915bff] text-[#915bff] font-bold bg-[#915bff] text-white">BoloForms Premium</button></a>
+                <a><button className="mx-2 px-4 py-2 rounded border-2 border-[#915bff] text-[#915bff] font-bold bg-[#915bff] text-white hover:opacity-90">BoloForms Premium</button></a>
             </div>
         </div>
     );

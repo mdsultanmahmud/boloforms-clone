@@ -1,0 +1,10 @@
+.workflow-left{
+    background: linear-gradient(90deg, rgba(252, 241, 251, 0), rgb(247, 223, 245));
+    padding: .4rem 2rem;
+    border-radius: 10px;
+}
+.workflow-right{
+    background: linear-gradient(270deg, rgba(236, 243, 255, 0), rgb(236, 243, 255));
+    padding: .4rem 2rem;
+    border-radius: 10px;
+}

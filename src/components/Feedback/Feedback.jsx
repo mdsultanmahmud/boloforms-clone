@@ -22,7 +22,7 @@ const Feedback = ({ content }) => {
             </div>
             <div className='mt-20'>
                 <div className='flex flex-wrap gap-10 justify-center mb-4'>
-                    <button className="mx-2 px-6 py-3 rounded-xl border-2 border-[#915bff] text-[#915bff] font-bold bg-[#915bff] text-white text-xl"><FontAwesomeIcon icon={faCloudArrowDown}></FontAwesomeIcon> Install For Free</button>
+                    <button className="mx-2 px-6 py-3 rounded-xl border-2 border-[#915bff] text-[#915bff] font-bold bg-[#915bff] text-white text-xl hover:opacity-90"><FontAwesomeIcon icon={faCloudArrowDown}></FontAwesomeIcon> Install For Free</button>
                     <button className="mx-2 px-6 py-3 rounded-xl border-2 border-[#915bff] text-[#915bff] font-bold text-xl"><FontAwesomeIcon icon={faRocket}></FontAwesomeIcon> BoloForms Premium</button>
                 </div>
                 <div className='flex flex-wrap gap-5 items-center lg:justify-evenly px-4'>
