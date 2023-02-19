@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <>
-            <footer className="footer p-10 bg-base-200 text-black footer-custom">
+            <footer className="footer p-10 bg-base-200 text-black footer-custom mx-4">
                 <div className='footer-emoji-section'>
                     <a className="link link-hover"><span>💬</span> Live Chat</a>
                     <a className="link link-hover"><span>📨</span> Support Email</a>
@@ -35,7 +35,7 @@ const Footer = () => {
                     <a className="link link-hover">Data Security and Policy</a>
                 </div>
             </footer>
-            <footer className="p-10 bg-base-200 text-black">
+            <footer className="p-10 bg-base-200 text-black mx-4">
                 <div className="my-4">
                     <p>Made with <span className='mx-2'>&#128293;</span> + <span className='mx-2'> &#128151;</span> India </p>
                 </div>

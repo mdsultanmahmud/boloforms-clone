@@ -24,7 +24,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <a>
-                    <img src={logo} alt="" className='h-44 w-44' />
+                    <img src={logo} alt="" className='h-24 w-24' />
                 </a>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -33,7 +33,7 @@ const Navbar = () => {
                                 Products
                                 <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
                             </a>
-                            <ul className="p-8 bg-white shadow-lg mt-3 w-[800px]">
+                            <ul className="p-8 bg-white shadow-lg mt-2 w-[800px]">
                                 <div className='flex items-start p-4 mb-4 rounded-lg hover:bg-[#f7dff5] cursor-pointer'>
                                     <img src={checkmark} alt="" />
                                     <div className='ml-5'>
