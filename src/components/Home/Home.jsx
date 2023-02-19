@@ -16,6 +16,7 @@ import FAQ from '../FAQ/FAQ';
 import AwardWining from '../AwardWining/AwardWining';
 import Certification from '../Certification/Certification';
 import Comment from '../Comment/Comment';
+import BoloFormSlider from '../BoloFormSlider/BoloFormSlider';
 const Home = () => {
     const FirstFeedBackSection = {
         img: feedOne,
@@ -43,6 +44,7 @@ const Home = () => {
         <div className='px-4'>
             <Navbar></Navbar>
             <Banner></Banner>
+            <BoloFormSlider></BoloFormSlider>
             <WorkInformation></WorkInformation>
             <Feedback content = {FirstFeedBackSection}></Feedback>
             <Feature></Feature>
