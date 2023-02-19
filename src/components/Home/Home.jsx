@@ -19,6 +19,7 @@ import Comment from '../Comment/Comment';
 import BoloFormSlider from '../BoloFormSlider/BoloFormSlider';
 import WorkflowPlatforms from '../WorkflowPlatforms/WorkflowPlatforms';
 import Workflow from '../Workflow/Workflow';
+import HoverButton from '../HoverButton/HoverButton';
 const Home = () => {
     const FirstFeedBackSection = {
         img: feedOne,
@@ -47,6 +48,7 @@ const Home = () => {
             <Navbar></Navbar>
             <Banner></Banner>
             <BoloFormSlider></BoloFormSlider>
+            <HoverButton></HoverButton>
             <WorkInformation></WorkInformation>
             <Feedback content = {FirstFeedBackSection}></Feedback>
             <Feature></Feature>
@@ -62,6 +64,7 @@ const Home = () => {
             <FAQ></FAQ>
             <Testimonials></Testimonials>
             <Footer></Footer>
+            
         </div>
     );
 };

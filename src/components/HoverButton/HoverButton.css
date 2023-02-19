@@ -1,0 +1,38 @@
+.btn-container{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.btn-inner-container{
+    width: 10px;
+    height: 10px;
+    border-radius: 8rem;
+    background-color: #cbcbcb;
+    margin-top: 2rem;
+    transition: all .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.btn-inner-container:hover{
+    background-color: #905aff;
+    width: -moz-max-content;
+    width: max-content;
+    height: 2rem;
+    border-radius: 5rem;
+    opacity: 1;
+}
+.btn-inner{
+    display: flex;
+    align-items: center;
+    transition: width .3s ease-in-out;
+    visibility: hidden;
+    padding: 0 .5rem;
+    color: white;
+}
+
+.btn-inner-container:hover .btn-inner {
+    visibility: visible;
+}
