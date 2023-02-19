@@ -1,0 +1,13 @@
+.button-container{
+    position: relative;
+}
+.button-container::before {
+    position: absolute;
+    content: "";
+    width: 30%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(270deg, hsla(0, 0%, 100%, 0), #fff);
+    z-index: 5;
+}
